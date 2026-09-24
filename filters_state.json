@@ -1,0 +1,54 @@
+{
+  "6160111": {
+    "jql": "filter = 6118695 AND (environment ~ Production OR \"Environment Type\" = Production)  AND filter!=6160572 AND filter!=6160657 ORDER BY \"Ticket Rank\", priority",
+    "name": "[DU][TBAPI][D0] TBAPI_Prod_Sanity Defects",
+    "last_checked_at": "2026-09-24T07:33:45.681346+00:00",
+    "issues": {
+      "DUBSS-446508": {
+        "key": "DUBSS-446508",
+        "status": "In Progress",
+        "summary": "[PROD][TBAPI] Data is not cleaned up from the ThreadLocal of the TBAPI working threads "
+      },
+      "DUBSS-463608": {
+        "key": "DUBSS-463608",
+        "status": "Additional Info Required",
+        "summary": "Internal_iPhone 18 Launch | Review and Optimization of DIP Flow APIs"
+      },
+      "DUBSS-470103": {
+        "key": "DUBSS-470103",
+        "status": "Additional Info Required",
+        "summary": "[IGDM-17747][D0] [PenT] [Customer App] Business Logic Bypass[Transaction Amount Manipulation]"
+      },
+      "DUBSS-470607": {
+        "key": "DUBSS-470607",
+        "status": "Additional Info Required",
+        "summary": "[IGDM-17611][PROD] [API] [D0] ReactivateBillingAccount API throwing 500 Downstream service Error"
+      },
+      "DUBSS-470730": {
+        "key": "DUBSS-470730",
+        "status": "Additional Info Required",
+        "summary": "[IGDM-17923]PROD Sanity || WEB APP|| Courier APP|| DIP+New Plan (Existing Customer)- Existing active line is also shown after capturing the SIM details."
+      },
+      "DUBSS-475303": {
+        "key": "DUBSS-475303",
+        "status": "Open",
+        "summary": "[PROD][IM9776507] Socket read timed out for multiple camel Flows"
+      },
+      "DUBSS-467431": {
+        "key": "DUBSS-467431",
+        "status": "Additional Info Required",
+        "summary": "[IGDM-17291][D0 PROD][FUT][HW] After entering MSISDN, IVR prompted that option not available"
+      },
+      "DUBSS-479866": {
+        "key": "DUBSS-479866",
+        "status": "In Progress",
+        "summary": "[IGDM-20042][D0][PROD][FUT][Courier App] Getting Unable to process your request after scan the customer EID in Courier App"
+      },
+      "DUBSS-477877": {
+        "key": "DUBSS-477877",
+        "status": "Additional Info Required",
+        "summary": "[IGDM-19554][D0][PROD][Tele Sales][Live] Getting SWW Generic error during email OTP for create account"
+      }
+    }
+  }
+}
