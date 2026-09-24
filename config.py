@@ -21,7 +21,7 @@ class Config:
     WEBEX_BOT_TOKEN = os.environ.get("WEBEX_BOT_TOKEN")
     WEBEX_ROOM_ID = os.environ.get("WEBEX_ROOM_ID")
 
-    JIRA_URL = os.environ.get("JIRA_URL", "https://tms.netcracker.com").rstrip("/")
+    JIRA_URL = os.environ.get("JIRA_URL", "https://tms.company.com").rstrip("/")
     JIRA_API_TOKEN = os.environ.get("JIRA_API_TOKEN")
 
     POLL_INTERVAL_SECONDS = int(os.environ.get("POLL_INTERVAL_SECONDS", "10"))

@@ -53,7 +53,7 @@ copy .env.example .env
 | --- | --- |
 | `WEBEX_BOT_TOKEN` | Bot access token from Webex developer portal |
 | `WEBEX_ROOM_ID` | ID of the Webex room to monitor |
-| `JIRA_URL` | Jira base URL, e.g. `https://tms.netcracker.com` |
+| `JIRA_URL` | Jira base URL, e.g. `https://tms.company.com` |
 | `JIRA_API_TOKEN` | Jira personal access token (sent as `Authorization: Bearer`) |
 | `POLL_INTERVAL_SECONDS` | How often to check for new messages (default: 10) |
 | `JIRA_FILTER_IDS` | Optional comma-separated saved filter IDs to watch (default: empty) |
@@ -86,7 +86,7 @@ When a watched filter is checked:
 2. If a new ticket appears or a tracked ticket's status changes, the bot posts a single message to the room with the changes.
 3. The first check after adding a filter establishes the baseline silently, so you will not get a flood of old tickets.
 
-Find a filter's ID in Jira from the filter URL (e.g. `https://tms.netcracker.com/issues/?filter=12345`) or from the filter details page.
+Find a filter's ID in Jira from the filter URL (e.g. `https://tms.company.com/issues/?filter=12345`) or from the filter details page.
 
 ## Running tests
 
